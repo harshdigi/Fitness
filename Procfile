@@ -1,1 +1,1 @@
-web: gunicorn Fitify.wsgi
+web: gunicorn Fitify.wsgi --log-file -
